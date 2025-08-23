@@ -1,0 +1,106 @@
+/* src/styles/contactForum.css */
+/* src/styles/contactForm.css */
+/* ================= Contact Form ================= */
+.contact-form-wrapper {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: rgba(13, 13, 13, 0.9);
+  border-radius: var(--radius-md);
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+  transition: max-width 0.3s ease, padding 0.3s ease;
+}
+
+@media (min-width: 1200px) {
+  .contact-form-wrapper {
+    max-width: 800px; /* wider on desktops */
+  }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.contact-form label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--color-accent-gold);
+  border-radius: var(--radius-sm);
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: var(--color-text-secondary);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--color-accent-bronze);
+  box-shadow: 0 0 6px rgba(234, 179, 8, 0.5);
+}
+
+/* ===== Button ===== */
+.contact-button {
+  padding: 0.9rem 1.6rem;
+  border: none;
+  border-radius: var(--radius-sm);
+  background-color: var(--color-accent-gold);
+  color: var(--color-background);
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: var(--font-heading);
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.15s ease;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .contact-button {
+    width: auto; /* shrink on wider screens */
+    align-self: flex-start;
+  }
+}
+
+.contact-button:hover:not(:disabled) {
+  background-color: var(--color-accent-bronze);
+  transform: translateY(-2px);
+}
+
+.contact-button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+/* ===== Status messages ===== */
+.status-message {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-family: var(--font-body);
+}
+
+.status-message.success {
+  color: #4caf50;
+  font-weight: 600;
+}
+
+.status-message.error {
+  color: #f44336;
+  font-weight: 600;
+}
+

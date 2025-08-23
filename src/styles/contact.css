@@ -1,0 +1,72 @@
+/* src/styles/contact.css */
+/* ================= Contact Page ================= */
+.contact-page {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  padding: var(--spacing-2xl) var(--spacing-lg);
+  font-family: var(--font-body);
+}
+
+.contact-title {
+  text-align: center;
+  margin: var(--spacing-lg) 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* ===== Wrapper for form + info ===== */
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2xl);
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 var(--spacing-lg) var(--spacing-lg) var(--spacing-lg);
+}
+
+/* ===== Contact Info ===== */
+.contact-info {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.contact-info p {
+  margin-bottom: var(--spacing-md);
+  font-size: 1.1rem;
+}
+
+.contact-info a.hover-gold,
+.contact-info span.hover-gold {
+  color: var(--color-accent-gold);
+  transition: color 0.3s;
+}
+
+.contact-info a.hover-gold:hover,
+.contact-info span.hover-gold:hover {
+  color: var(--color-accent-bronze);
+}
+
+/* ===== Desktop layout ===== */
+@media (min-width: 1024px) {
+  .contact-wrapper {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 6rem;
+  }
+
+  .contact-form-wrapper,
+  .contact-info {
+    flex: 1;
+    max-width: 100%; /* allow both to expand */
+  }
+
+  .contact-info {
+    text-align: left;
+    margin: 0;
+  }
+}
+

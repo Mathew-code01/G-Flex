@@ -1,0 +1,35 @@
+/* src/styles/about.css */
+
+/* ================= About Page ================= */
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-lg);
+  align-items: center;
+  justify-content: center;
+}
+
+.about-image {
+  flex: 1 1 300px;
+  max-width: 400px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: 0 0 15px var(--color-accent-gold);
+}
+
+.about-image img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.about-text {
+  flex: 2 1 400px;
+  color: var(--color-text-primary);
+  line-height: 1.8;
+}
+
+.about-text p {
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text-secondary);
+}

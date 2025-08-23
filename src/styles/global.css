@@ -1,0 +1,55 @@
+/* src/styles/global.css */
+
+/* Import variables */
+@import './variables.css';
+
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--color-text-primary);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Example utility classes */
+.text-gold {
+  color: var(--color-accent-gold);
+}
+
+.bg-gold {
+  background-color: var(--color-accent-gold);
+}
+
+.hover-gold:hover {
+  color: var(--color-accent-gold);
+}
+
+.hover-bg-gold:hover {
+  background-color: var(--color-accent-gold);
+}

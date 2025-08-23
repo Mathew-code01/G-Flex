@@ -1,0 +1,9 @@
+/* src/styles/footer.css */
+
+.footer {
+  padding: var(--spacing-md);
+  background-color: var(--color-background);
+  color: var(--color-text-secondary);
+  text-align: center;
+  border-top: 2px solid var(--color-accent-gold);
+}

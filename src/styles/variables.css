@@ -1,0 +1,25 @@
+/* src/styles/variables.css */
+
+:root {
+  /* Colors */
+  --color-background: #0d0d0d;
+  --color-text-primary: #e5e5e5;
+  --color-text-secondary: #b3b3b3;
+  --color-accent-gold: #eab308;
+  --color-accent-bronze: #c08457;
+
+  /* Fonts */
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 3rem;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+}

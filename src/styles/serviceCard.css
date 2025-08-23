@@ -1,0 +1,56 @@
+/* src/styles/serviceCard.css */
+
+/* ================= ServiceCard ================= */
+.service-card {
+  background-color: var(--color-background);
+  border: 2px solid var(--color-accent-gold);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px var(--color-accent-gold);
+}
+
+.service-tag {
+  font-size: 0.9rem;
+  color: var(--gold);
+  font-style: italic;
+  margin-bottom: var(--spacing-sm);
+}
+
+
+.service-title {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-accent-gold);
+}
+
+.service-price {
+  font-weight: bold;
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-text-primary);
+}
+
+.service-desc {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.service-button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: var(--radius-sm);
+  background-color: var(--color-accent-gold);
+  color: var(--color-background);
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.service-button:hover {
+  background-color: var(--color-accent-bronze);
+}
