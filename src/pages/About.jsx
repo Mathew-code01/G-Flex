@@ -3,7 +3,7 @@
 import React from "react";
 import "../styles/global.css";
 import "../styles/about.css";
-import Portrait from "/portrait.jpg"; // replace with his portrait image
+import Portrait from "/portrait.webp"; // replace with his portrait image
 
 export default function About() {
   return (
