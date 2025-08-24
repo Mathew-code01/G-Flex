@@ -3,7 +3,7 @@
 .hero {
   position: relative;
   height: 100vh;
-  background-image: url('/hero.webp'); /* replace with your image */
+  background-image: url('/hero.png'); /* replace with your image */
   background-size: cover;
   background-position: center;
   display: flex;

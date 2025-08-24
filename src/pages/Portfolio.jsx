@@ -8,31 +8,31 @@ const allPhotos = [
   {
     id: 1,
     category: "Weddings",
-    src: "/portfolio1.webp",
+    src: "/portfolio1.png",
     title: "Wedding Moment 1",
   },
   {
     id: 2,
     category: "Portraits",
-    src: "/portfolio2.webp",
+    src: "/portfolio2.png",
     title: "Portrait 1",
   },
   {
     id: 3,
     category: "Events",
-    src: "/portfolio3.webp",
+    src: "/portfolio3.png",
     title: "Corporate Event 1",
   },
   {
     id: 4,
     category: "Weddings",
-    src: "/portfolio4.webp",
+    src: "/portfolio4.png",
     title: "Wedding Moment 2",
   },
   {
     id: 5,
     category: "Portraits",
-    src: "/portfolio5.webp",
+    src: "/portfolio5.png",
     title: "Portrait 2",
   },
   {

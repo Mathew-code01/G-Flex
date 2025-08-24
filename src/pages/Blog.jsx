@@ -9,18 +9,18 @@ const blogPosts = [
     title: "Behind the Lens: Wedding Day Magic",
     excerpt:
       "Capturing authentic emotions and candid moments on a wedding day...",
-    image: "/blog1.webp",
+    image: "/blog1.png",
   },
   {
     title: "Top Portrait Photography Tips",
     excerpt:
       "Learn how to bring out the personality in every portrait shoot...",
-    image: "/blog2.webp",
+    image: "/blog2.png",
   },
   {
     title: "Event Photography Essentials",
     excerpt: "Key techniques for covering corporate events and gatherings...",
-    image: "/blog3.webp",
+    image: "/blog3.png",
   },
 ];
 
