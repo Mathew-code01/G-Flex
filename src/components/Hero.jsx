@@ -10,11 +10,9 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="hero-overlay">
-        <h1 className="hero-title text-gold">
-          Capturing Stories Through the Lens
-        </h1>
+        <h1 className="hero-title text-gold">Keeping Memories Alive</h1>
         <p className="hero-subtitle">
-          Cinematic photography for weddings, portraits, and events
+          Photography for the chic & modern 📸✨ Events | Fashion | Wedding
         </p>
         <button
           className="hero-button hover-bg-gold"

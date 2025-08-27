@@ -43,3 +43,11 @@
 .hero-button:hover {
   background-color: var(--color-accent-bronze);
 }
+
+.bottom-tagline {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 4rem 0 2rem;
+  color: #d4af37; /* matches your gold branding */
+}

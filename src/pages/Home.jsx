@@ -1,4 +1,5 @@
 // src/pages/Home.jsx
+// src/pages/Home.jsx
 import React from "react";
 import Hero from "../components/Hero.jsx";
 import Gallery from "../components/Gallery.jsx";
@@ -14,6 +15,14 @@ export default function Home() {
     <div>
       <Hero />
       <Gallery images={sampleImages} />
+
+      {/* Tagline at the bottom of the homepage */}
+      <section className="bottom-tagline">
+        <p>
+          ..We create confident, glowing smiles and unforgettable experiences! 💫
+        </p>
+      </section>
     </div>
   );
 }
+
