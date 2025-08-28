@@ -7,17 +7,17 @@ import "../styles/hero.css";
 
 export default function Hero() {
   const navigate = useNavigate();
+
   return (
     <section className="hero">
       <div className="hero-overlay">
-        <h1 className="hero-title text-gold">Keeping Memories Alive</h1>
-        <p className="hero-subtitle">
-          Photography for the chic & modern 📸✨ Events | Fashion | Wedding
-        </p>
-        <button
-          className="hero-button hover-bg-gold"
-          onClick={() => navigate("/portfolio")}
-        >
+        <h1 className="hero-title">Keeping Memories Alive</h1>
+        <p className="hero-subtitle">Photography for the chic & modern 📸✨</p>
+
+        {/* categories now styled better + spaced */}
+        <p className="hero-categories">Events | Fashion | Wedding</p>
+
+        <button className="hero-button" onClick={() => navigate("/portfolio")}>
           View My Work
         </button>
       </div>
